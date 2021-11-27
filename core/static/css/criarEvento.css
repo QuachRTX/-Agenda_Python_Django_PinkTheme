@@ -1,0 +1,50 @@
+body {
+	background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/22/29/GAoJ3a.jpg");
+}
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color:#ff009d ;
+
+}
+
+#formulario{
+	display: flex;
+	flex-direction: column;
+	align-items: center;	
+
+}
+label{
+	position: relative;
+	font-family: italic;
+	font-weight: bold;
+	
+}
+#boxform{
+border: 6px solid rgb(255, 0, 170);
+padding: 8px;
+background-color: #ece6e6;
+
+	
+}
+#boxform input{
+		position: relative;
+		float: right;
+		width: 200px;
+}
+
+#descricao textarea{
+		position: relative;
+		width: 200px;
+
+
+}
+
+
+button{
+	width: 75px;
+	height: 35px;
+	font-family: italic;
+	font-size: 12px;
+	font-weight: bold;
+}

@@ -1,0 +1,65 @@
+body {
+	background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/22/29/GAoJ3a.jpg");
+}
+
+#check{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	left: 40%;
+	
+}
+
+
+#check img{
+	width: 40px;
+	height: 40px;
+	margin-top: 20px;
+
+}
+#formulario {
+		
+		margin-left: 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		
+		margin: 100px 650px 0 650px;
+		padding: 30px;
+		border-radius: 200px;
+		background-color: #ece6e6;
+		border:2px solid rgb(255, 0, 170);
+	}
+
+#formulario form{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+#formulario form h1{
+	font-family: Italic;
+	font-weight: bold;
+	
+}
+#formulario form label{
+	
+	flex: 1;
+	font-family: Italic;
+	font-weight: bold;
+	
+}
+#formulario form #password{
+	position: relative;
+	left: 7px;
+
+}
+
+#formulario form button{
+
+	font-family: Italic;
+	margin-top: 10px;
+}
